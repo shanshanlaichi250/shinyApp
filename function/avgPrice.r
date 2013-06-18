@@ -1,0 +1,1 @@
+avgPrice <- function(p) apply(HLC(p),1,mean)
